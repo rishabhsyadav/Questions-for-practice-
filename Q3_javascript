@@ -1,0 +1,12 @@
+let student = {
+    name: "rishabh yadav",
+    salary : 20000000,
+    cgpa: 9.8,
+    ispass: "true",
+
+
+};
+
+for ( let key in student) {
+    console.log("key=" , key , "values =", student[key] );
+}
